@@ -19,6 +19,7 @@ import wallet from '../wba-wallet.json';
  const connection = new Connection(clusterApiUrl('devnet'),'confirmed');
  // iniitialize a mint  account set wallet to authority 
  const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
+ 
  let mint = await token.createMint(
     connection,	
 	  keypair,

@@ -16,7 +16,9 @@
 		"initialize-vault": "ts-node ./cluster1/initializeVault.ts",
 		"depositAndWithdraw": "ts-node ./cluster1/depositAndWithdrawNative.ts",
 		"depositSpl": "ts-node ./cluster1/depositSpl.ts",
-		"withdrawSpl": "ts-node ./cluster1/withdrawSpl.ts"
+		"withdrawSpl": "ts-node ./cluster1/withdrawSpl.ts",
+		"createNft": "ts-node ./cluster1/createNft.ts",
+		"createMetadata": "ts-node ./cluster1/createMetadata.ts"
 	},
 	"dependencies": {
 		"@metaplex-foundation/mpl-token-metadata": "^2.10.0",
